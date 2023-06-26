@@ -97,7 +97,7 @@
         return item.value
       }
     }
-  
+
     win.getScript = url => new Promise((resolve, reject) => {
       const script = document.createElement('script')
       script.src = url
@@ -111,7 +111,7 @@
       }
       document.head.appendChild(script)
     })
-  
+
     win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
       const link = document.createElement('link')
       link.rel = 'stylesheet'
@@ -126,7 +126,7 @@
       }
       document.head.appendChild(link)
     })
-  
+
       win.activateDarkMode = function () {
         document.documentElement.setAttribute('data-theme', 'dark')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
@@ -140,10 +140,10 @@
         }
       }
       const t = saveToLocal.get('theme')
-    
+
           if (t === 'dark') activateDarkMode()
           else if (t === 'light') activateLightMode()
-        
+
       const asideStatus = saveToLocal.get('aside-status')
       if (asideStatus !== undefined) {
         if (asideStatus === 'hide') {
@@ -152,14 +152,14 @@
           document.documentElement.classList.remove('hide-aside')
         }
       }
-    
+
     const detectApple = () => {
       if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
         document.documentElement.classList.add('apple')
       }
     }
     detectApple()
-    })(window)</script><link rel="stylesheet" href="/css/custom.css"><link rel="stylesheet" href="/css/universe.css"><link rel="stylesheet" href="/css/rightMenu.css"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><script>(()=>{
+    })(window)</script><link rel="stylesheet" href="css/custom.css"><link rel="stylesheet" href="css/universe.css"><link rel="stylesheet" href="css/rightMenu.css"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><script>(()=>{
   const $loadingBox = document.getElementById('loading-box')
   const $body = document.body
   const preloader = {
@@ -245,7 +245,7 @@ More info: Deployment
     document.getElementById("subtitle").textContent = "窗外有月色和雨&#44;而我在想你。"
   }
 }
-typedJSFn.run(subtitleType)</script></div><canvas id="universe"></canvas><script defer src="/js/universe.js"></script><script defer src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script><script data-pjax defer src="/js/chocolate.js"></script><script data-pjax defer src="/js/rightMenu.js"></script><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="false" src="https://gcore.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-nest.min.js"></script><script id="click-heart" src="https://gcore.jsdelivr.net/npm/butterfly-extsrc/dist/click-heart.min.js" async="async" mobile="false"></script><script>(() => {
+typedJSFn.run(subtitleType)</script></div><canvas id="universe"></canvas><script defer src="js/universe.js"></script><script defer src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script><script data-pjax defer src="js/chocolate.js"></script><script data-pjax defer src="js/rightMenu.js"></script><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="false" src="https://gcore.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-nest.min.js"></script><script id="click-heart" src="https://gcore.jsdelivr.net/npm/butterfly-extsrc/dist/click-heart.min.js" async="async" mobile="false"></script><script>(() => {
   window.$crisp = [];
   window.CRISP_WEBSITE_ID = "fc0d03da-9b32-45c2-a25b-2d0de04c3227";
   (function () {
